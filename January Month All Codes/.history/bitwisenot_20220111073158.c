@@ -3,7 +3,7 @@
 int main() {
   int num = 8;
 
-printf("Bitwise NOT ~ [ N = -(N+1) ]\n");
+printf("Bitwise NOT ")
   // ~num yields 1s complement of num
   printf("1s complement of %d = %d\n", num, (~num));
 
