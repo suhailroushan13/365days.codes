@@ -4,6 +4,8 @@ int main()
 int a,b;
 a =5,4;
 b = (6,8);
+
+int f = (10,2);
 // int c = 10,23; // it will give error
 int d=99,e;
 e = (d++,++d);
@@ -11,6 +13,8 @@ e = (d++,++d);
 // in d++ the value is stored as 100 
 // ++d has +1 the value from 100 to 101
 //  Output is now 101
+
+
 
 
 
@@ -32,6 +36,7 @@ printf("%d\n",a);
 printf("%d\n",b);
 // printf("%d\n",c);
 printf("%d\n", e);
+printf("%d\n", f);
 
 return 0;
 

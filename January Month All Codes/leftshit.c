@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main() {
   int a = 10, b=15, c;
+
+    int f = 10,g=2;
   /******
 
 Left Shift Operator Means Remove From Left Side and Add to Right Side
   Left Shift Operator (<<)
-
+ 
   Decreasing the value by 2 bits Adding Zero
 
   if a = 10 and a << 2
@@ -31,7 +33,7 @@ Left Shift Operator Means Remove From Left Side and Add to Right Side
 
    1 1 1 1 - Removed 4 Bits From Left
 
-   Now Added 0 In Left Last 4 Places Bits
+   Now Added 0 In Right Last 4 Places Bits
 
    1 1 1 1 0 0 0 0  = which is now in decimal is
 
@@ -64,6 +66,11 @@ So, 240 is the decimal equivalent of the binary number 11110000.
 ****************************************
 Shortcut Trick to find it
 
+a<<b 
+a * (2^b)
+
+
+
 1. 12 << 1
 2. 12 * (2^1) = 12 * 2 = 24
 
@@ -79,6 +86,15 @@ Shortcut Trick to find it
 
   printf("%d\n", a << 2);
   printf("%d\n",b << 4);
+  // 10 << 2
+  // 10 * (2 ^ 2) = 10 * 4 = 40
+
+  printf("%d\n",f << g);
+
+  // 10 >> 2
+  // 10 / (2 ^ 2) = 10 / 4 = 5/2 = 2
+  printf("%d\n",f >> g);
+
 
   return 0;
 }
