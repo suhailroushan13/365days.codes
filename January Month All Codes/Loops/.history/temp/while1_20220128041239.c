@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+int a,b,c;
+char apl;
+for(int i= 0;i<=200;i++)
+{
+    char apl;
+    printf("%c\n",apl);
+    apl++;
+}
+
+return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+int a,b,c;
+int count
+for (int i = 0; i<100;i++)
+{
+    printf("Suhail Loves Farrru %d times\n",count++);
+
+}
+
+return 0;
+}
