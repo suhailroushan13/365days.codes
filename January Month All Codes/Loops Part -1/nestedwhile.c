@@ -8,6 +8,7 @@ int main() {
 //   scanf("%d %d", &row,&col);
 
   while(i<3)
+  
   {
       while(j<=3)
       {

@@ -2,6 +2,7 @@
 #include <stdlib.h>
 void main() {
   int i;
+  
   printf("Enter a number : ");
   scanf("%d",&i);
   for (i; i <= 20; i++) {

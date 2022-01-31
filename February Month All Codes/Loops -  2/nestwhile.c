@@ -9,6 +9,7 @@ int main() {
   {
       while(j<=3)
       {
+
          
       }
       printf("%d %d\n",i++,j++);
