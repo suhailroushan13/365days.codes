@@ -1,7 +1,7 @@
 # 365days.codes
 
  <h1 align="center">365 Days of Code</h1>
-<h2 align="center">C,C++,Python,Java,Linux,DSA and Many More</h2>
+<h2 align="center">C,JavaScript,C++,Python,Java,Linux,DSA and Many More</h2>
 
 
  <br>Hi there! <img src="https://user-images.githubusercontent.com/42378118/110234147-e3259600-7f4e-11eb-95be-0c4047144dea.gif" width="20"><br>
